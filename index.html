@@ -122,9 +122,39 @@
     <div class = "gitnlinux">
 
     </div>
+    <center>
+        <div style = "position: relative; bottom: 50%;" class="buttons">
+            <table id="buttons">
+                <tr>
+                    <th><button onclick="topFunction()" id = "scrollup" href="#">Scroll Up</button></th>
+                </tr>
+            </table>
+            <script>
+                //Get the button:
+mybutton = document.getElementById("scrollup");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+            </script>
+        </div>
+    </center>
 </body>
 
-<footer style = "background-color: black;">
+
+<footer>
     <script>
         var detector = new MobileDetect(window.navigator.userAgent);
         if (detector.os() != null){
