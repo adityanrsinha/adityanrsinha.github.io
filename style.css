@@ -224,6 +224,11 @@ button:hover {
     animation-iteration-count:infinite;
 }
 
+#scrollup {
+   position:fixed;
+   bottom:10 px;
+}
+
 
 @-webkit-keyframes backandforth {0%{left:0;} 50%{left:50%;} 100%{left:0;}}
 
