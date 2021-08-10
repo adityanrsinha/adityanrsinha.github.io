@@ -225,8 +225,8 @@ button:hover {
 }
 
 #scrollup {
-   position:fixed;
-   bottom:10 px;
+   top: 10 px;
+   bottom: 10 px;
 }
 
 
