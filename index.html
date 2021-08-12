@@ -161,7 +161,7 @@ function topFunction() {
     <script>
         var detector = new MobileDetect(window.navigator.userAgent);
         if (detector.os() != null){
-            document.getElementById("wholebody").innerHTML = "This Website is not compatible for phones and tablets."; 
+            window.location = "/mobile.html";
         }
     </script>
 </footer>
