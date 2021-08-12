@@ -1,0 +1,262 @@
+body {
+    /* background-color: #090511; */
+    background-color: #EA75B8;
+    font-family: Helvetica;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+span {
+    color: white;
+    text-transform: uppercase;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+#linkedin {
+    color:white;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 25px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+#linkedin:hover {
+    color: #1166C2;
+    font-size: 55px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+#github {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+#github:hover {
+    color: black;
+    font-size: 55px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+#twitter {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 55%;
+    margin-top: 25px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+#twitter:hover {
+    color: #66ccff;
+    font-size: 55px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+#medium {
+    color: white;
+    position: absolute;
+    font-size: 45px;
+    margin-left: 75%;
+    margin-top: 25px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+#medium:hover {
+    color: #FEE75C;
+    font-size: 115px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+
+button {
+    background-color: black;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-size:20px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    transition: 0.5s;
+}
+
+
+#pic {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: auto auto;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+#pic:hover {
+    border: 5px solid #ff99ff;
+    transition: 0.4s;
+
+}
+
+.whoamigif {
+    position: absolute;
+    clip: rect(0px,300px,300px,100px);
+    z-index: 2;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+
+}
+
+#square1 {
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: #292841;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+.skillsgif {
+    float: right;
+    z-index: 3;
+    right: 6%;
+    margin-top: 50px;
+    position: absolute;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+#square2 {
+    
+    position: absolute;
+    z-index: 1;
+    right: 4%;
+    width: 500px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background: #8CD9FC;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+}
+
+
+.pythongif {
+    left: 0%;
+}
+
+#dockergif {
+    transform: scale(0.5);
+    border-radius: 50%;
+    margin-top: -100px;
+    position: relative;
+    box-shadow: 10px 15px #4D7AE8;
+}
+
+#dockergif:hover {
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+#docker {
+    position: absolute;
+}
+
+.move {
+    z-index: 4;
+    position:relative;
+    -webkit-animation: backandforth 5s ease 0s;
+    -webkit-animation-iteration-count:infinite;
+    animation: backandforth 5s ease 0s;
+    animation-iteration-count:infinite;
+}
+
+#scrollup {
+   top: 10 px;
+   bottom: 10 px;
+}
+
+
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @media (min-width : 900px) {
+
+}
