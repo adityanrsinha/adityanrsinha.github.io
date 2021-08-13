@@ -136,6 +136,13 @@
         if (detector.os() == null){
             window.location = "/index.html";
         }
+        
+        window.onload = function() {
+            if(!window.location.hash) {
+                window.location = window.location + "#re";
+                window.location.reload();
+            }
+        }
     </script>
 </body>
 
