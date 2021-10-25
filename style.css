@@ -120,6 +120,7 @@ button:hover {
 
 
 #pic {
+    width: 15vw;
     border: 5px solid white;
     border-radius: 50%;
     margin: auto auto;
